@@ -1,6 +1,13 @@
+import Header from "./component/Header";
+import Proposals from "./component/Proposals";
 
-function App() {
-  return <div className='bg-red-700'>Hello world</div> 
+const App = () => {
+  return(
+    <div className='min-h-screen bg-white text-gray-900 dark:bg-[#212936] dark:text-gray-300'>
+      <Header/>
+      <Proposals/>
+    </div>
+  ) 
 }
 
 export default App;

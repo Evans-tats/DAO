@@ -1,13 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
-import './index.css'
-import 'react-toastify/dist/ReactToastify.css'
-import App from './App'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import './index.css';
+import 'react-toastify/dist/ReactToastify.css';
+import App from './App';
 
-ReactDOM.render(
+const root = document.getElementById('root');
+ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>,
-  document.getElementById('root'),
-)
+  </BrowserRouter>
+);
