@@ -20,6 +20,19 @@ const Proposal = () => {
                 </th>
                 <th scope="col" className="text-sm font-medium px-6 py-4 text-left">
                   Title
+
+
+
+
+
+
+
+
+
+
+
+dd
+
                 </th>
                 <th scope="col" className="text-sm font-medium px-6 py-4 text-left">
                   Expires
