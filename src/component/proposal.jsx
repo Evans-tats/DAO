@@ -29,6 +29,22 @@ const Proposal = () => {
                 </th>
               </tr>
              </thead>
+             <tbody>
+              <tr>
+                <td className="text-sm font-light px-6 py-4 whitespace-nowrap">
+                  <span>0x21..ef24</span>
+                </td>
+                <td className="text-sm font-light px-6 py-4 whitespace-nowrap">
+                  Donate for a good cause
+                </td>
+                <td className="text-sm font-light px-6 py-4 whitespace-nowrap">
+                  {new Date().getTime()}
+                </td>
+                <td className="text-sm font-light px-6 py-4 whitespace-nowrap">
+                  hello
+                </td>
+              </tr>
+             </tbody>
             </table>
           </div>
         </div>

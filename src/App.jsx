@@ -1,13 +1,17 @@
-import Banner from "./component/Banner";
+import { Route, Routes } from "react-router-dom";
 import Header from "./component/Header";
-import Proposal from "./component/proposal";
+import Home from "./view/home";
+import ProposalPage from "./view/proposalPage";
 
 const App = () => {
   return(
     <div className='min-h-screen bg-white text-gray-900 dark:bg-[#212936] dark:text-gray-300'>
       <Header/>
-      <Banner/>
-      <Proposal/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/proposal/:id" element={<ProposalPage/>}/>
+      </Routes>
+      
     </div>
   ) 
 }
